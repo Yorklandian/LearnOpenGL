@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="src\glad\glad.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utils\std_image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\utils\Shader.h" />
+    <ClInclude Include="src\utils\stb_image.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
